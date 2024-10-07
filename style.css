@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+    color: #f0f0f0;
+    max-width: 90vw;
+    max-height: 90vh;
+    overflow: auto;
+}
+
+h1, h3 {
+    font-size: 24px;
+    color: #f0f0f0;
+}
+
+.result-image {
+    max-width: 300px;
+    margin: 10px;
+}
+
+#resultadoJuego {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.jugador-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2em;
+    color: #f0f0f0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#resultado {
+    margin-top: 20px; /* Add space above the #resultado div */
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sash_Vazquez_P1</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" async src="script.js"></script> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container game-container">
+            <div class="header">
+                <h1>Sash_Vazquez_P1</h1>
+            </div>
+
+            <div class="form-group">
+                <label for="numJugadores">Selecciona el numero de jugadores:</label>
+                <select class="form-control" id="numJugadores">
+                    <option value="0">0 Jugadores</option>
+                    <option value="1">1 Jugador</option>
+                    <option value="2">2 Jugadores</option>
+                    <option value="3">3 Jugadores</option>
+                </select>
+                <label for="numRondas">Numero de partidas:</label>
+                <select class="form-control" id="numRondas">
+                    <option value="1">1P</option>
+                    <option value="2">2P</option>
+                    <option value="3">3P</option>
+                    <option value="4">4P</option>
+                    <option value="5">5P</option>
+                </select>
+            </div>
+
+            <div class="button-container">
+                <button class="btn btn-primary" id="iniciarPartida">Iniciar Partida</button>
+                <button class="btn btn-danger" id="finalizar" style="display: none;">Finalizar</button>
+            </div>
+            
+            <div id="resultado">
+                <div id="resultadoJuego">
+                    <div class="jugador-container" id="jugador1">
+                        <h3>Jugador1 - <span id="puntuacionJugador1">0</span></h3>
+                        <img src="./dos_o_uno_assets/cero.png" alt="cero dedos" class="result-image" id="imgJugador1">
+                    </div>
+                    <div class="jugador-container" id="jugador2">
+                        <h3>Jugador2 - <span id="puntuacionJugador2">0</span></h3>
+                        <img src="./dos_o_uno_assets/cero.png" alt="cero dedos" class="result-image" id="imgJugador2">
+                    </div>
+                    <div class="jugador-container" id="jugador3">
+                        <h3>Jugador3 - <span id="puntuacionJugador3">0</span></h3>
+                        <img src="./dos_o_uno_assets/cero.png" alt="cero dedos" class="result-image" id="imgJugador3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
